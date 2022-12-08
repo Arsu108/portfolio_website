@@ -159,9 +159,8 @@ section {
 }
 
 .footer {
-    position: absolute;
-    top: 97%;
-    padding-left: 3%;
+    padding-top: 10%;
+    padding-left: 50%;
     font-size: 0.7em;
     width: 100%;
     text-align: center;
@@ -230,8 +229,8 @@ section {
     position: absolute;
     width: 280px;
     height: 280px;
-    top: 57%;
-    left: 80%;
+    padding-top: 40%;
+    padding-left: 90%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -239,7 +238,7 @@ section {
 
 .social_media_menu li {
     position: absolute;
-    right: 78.6%;
+    left: 89.2%;
     list-style: none;
     transition: 0.5s;
     transition-delay: calc(0.1s * var(--i));
