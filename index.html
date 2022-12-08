@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Arslan Asghar</title>
+    <!-- linking other files -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- import google fonts     -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+    <section>
+        <img src="Data/Images/headerbg1.jpg" class="bg">
+        <!-- using the particle.js library to create the effect over the image -->
+        <div id="particles-js">
+            <!-- Social Media Menu -->
+            <!-- Using ionicons for the icons of the social media -->
+            <div class="social_media_menu">
+                <div class="toggle">
+                    <ion-icon name="share-social-outline"></ion-icon>
+                </div>
+                <li style="--i:0;--clr:rgb(253, 3, 3);">
+                    <a href="https://www.instagram.com/arrslan._/">
+                        <ion-icon name="logo-instagram"></ion-icon>
+                    </a>
+                </li>
+                <li style="--i:1;--clr:rgb(174, 253, 3);">
+                    <a href="mailto:ma6610@nyu.edu">
+                        <ion-icon name="mail-outline"></ion-icon>
+                    </a>
+                </li>
+                <li style="--i:2;--clr:rgb(103, 3, 253);">
+                    <a href="https://www.facebook.com/arslan.asghar.520?mibextid=LQQJ4d">
+                        <ion-icon name="logo-facebook"></ion-icon>
+                    </a>
+                </li>
+                <li style="--i:3;--clr:rgb(228, 253, 3);">
+                    <a href="https://github.com/Arsu108">
+                        <ion-icon name="logo-github"></ion-icon>
+                    </a>
+                </li>
+
+                <!-- TYPE-WRITER ANIMATION -->
+                <h1 class="typer type_anim">WELCOME TO MY PORTFOLIO WEBSITE</h1>
+                <!-- PERSONAL INFORMATION AND PROJECT LINKS -->
+                <div class="info">
+                    <h3 class="intro"> Hi! I am Arslan! <br><br> I am currently doing my bachelor's degree at <a class="btn" href="https://nyuad.nyu.edu/en/">New York University Abu-Dhabi</a> in Computer Science. <br><br> My interests are web-development (front-end), game
+                        development, virtual and augmented reality, machine learning and photography.<br><br> Here are some of the projects i have done for my classes at NYUAD</h3>
+                    <h2 class="projects">Class Projects:</h2>
+                    <div class="commlab">
+                        <h3>Communication Lab: <a class="btn" href="https://arsu108.github.io/Comm-Lab/">Film Festival Website</a></h3>
+                        <h3>Communication Lab: <a class="btn" href="https://pavlyhalim.github.io/comic/">Comic Website</a></h3>
+                        <h3>Communication Lab: <a class="btn" href="https://zion-off.github.io/commlab-sound/">Interactive Sound Website</a></h3>
+                        <h3>Communication Lab: <a class="btn" href="https://marwanwalid2.github.io/video-site/">Film a story</a></h3>
+                    </div>
+                    <!-- INSPIRATION FOOTER -->
+                    <p class="footer"> Inspired by <a class="foot_btn" href="https://taliacotton.com/">Talia Cotton's Portfolio website</a></p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- IMPORTING PARTICLE.JS LIBRARY -->
+    <script type="text/javascript" src="particles.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+    <!-- IMPORTING IONICONS FOR THE ICONS -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+    <!-- SCRIPT FOR THE CLICK ON THE SOCIAL MEDIA MENU -->
+    <script>
+        let toggle = document.querySelector(".toggle");
+        let social_media_menu = document.querySelector(".social_media_menu");
+        toggle.onclick = function() {
+            social_media_menu.classList.toggle("play")
+        }
+    </script>
+
+
+</body>
+
+</html>
